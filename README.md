@@ -73,7 +73,7 @@ PythonスクリプトからLlama3 APIを使用する場合は、`llama3_client.p
 ## ファイル構成
 - `Dockerfile`: Llama3環境のDockerイメージ定義
 - `manage_llama3.sh`: Dockerコンテナ管理用スクリプト
-- `llama3_client.py`: Llama3 API用Pythonクライアント
+- `src/llama3_client.py`: Llama3 API用Pythonクライアント (要 rye, `rye sync`)
 
 ## 参考資料
 - [Llama3の環境構築からCUIでの実行まで](https://qiita.com/masa3000/items/8ed69d2036255e5f0af2)
