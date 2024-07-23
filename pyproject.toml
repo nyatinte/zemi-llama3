@@ -6,7 +6,7 @@ authors = [
     { name = "nyatinte", email = "takumi.062757@gmail.com" }
 ]
 dependencies = [
-    "requests>=2.32.3",
+    "ollama>=0.3.0",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
